@@ -67,6 +67,7 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.0</version>
         <configuration>
+          <failOnMissingWebXml>false</failOnMissingWebXml>
           <compilerArgs>
             <arg>-Xlint</arg>
           </compilerArgs>
